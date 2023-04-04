@@ -39,7 +39,7 @@ const abiString = `[{
 }]`
 
 func call_param() (string, error) {
-	tronAddress := "TBdxeRmLg6pKEzJxqT6m9y5169exE5PhGX"
+	tronAddress := "TUGUZJ5d7dty15AzFQ72edMDU9KcWM1pX4"
 	base58Decoded, err := base58Decode(tronAddress)
 	if err != nil {
 		panic(err)
@@ -49,7 +49,7 @@ func call_param() (string, error) {
 
 	toAddress := common.BytesToAddress(base58Decoded[1:21])
 	fmt.Println(toAddress)
-	amount := big.NewInt(100000)
+	amount := big.NewInt(100000000)
 	contractABI, err := abi.JSON(strings.NewReader(abiString))
 	if err != nil {
 		panic(err)
@@ -103,7 +103,7 @@ func Tron20_transfer() {
 	"visible":true,
 	"function_selector": "transfer(address,uint256)",
 	"call_value": 0,
-	"fee_limit" : 4000000,
+	"fee_limit" : 8000000,
 	"parameter": %q }`, param)
 
 	args := []string{

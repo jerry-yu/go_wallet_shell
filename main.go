@@ -8,7 +8,8 @@ import (
 
 func main() {
 	log.SetFlags(log.LstdFlags | log.Lshortfile)
+	FilecoinTransfer()
 	//Tron20_transfer()
 	//Tron_transfer()
-	Erc20_transfer()
+	//Erc20_transfer()
 }
