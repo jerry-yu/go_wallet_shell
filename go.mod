@@ -5,11 +5,11 @@ go 1.20
 replace github.com/btcsuite/btcd => github.com/btcsuite/btcd v0.23.4
 
 require (
-	github.com/centrifuge/go-substrate-rpc-client v2.0.0+incompatible
 	github.com/centrifuge/go-substrate-rpc-client/v4 v4.0.12
 	github.com/ethereum/go-ethereum v1.11.5
 	github.com/filecoin-project/go-address v1.1.0
 	github.com/filecoin-project/lotus v1.20.4
+	github.com/goat-systems/go-tezos/v4 v4.0.4
 )
 
 require (
@@ -21,6 +21,7 @@ require (
 	github.com/akavel/rsrc v0.8.0 // indirect
 	github.com/benbjohnson/clock v1.3.0 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
+	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce // indirect
 	github.com/cosmos/go-bip39 v1.0.0 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/crackcomm/go-gitignore v0.0.0-20170627025303-887ab5e44cc3 // indirect
@@ -55,6 +56,10 @@ require (
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.2.5 // indirect
+	github.com/go-playground/locales v0.13.0 // indirect
+	github.com/go-playground/universal-translator v0.17.0 // indirect
+	github.com/go-playground/validator/v10 v10.2.0 // indirect
+	github.com/go-resty/resty/v2 v2.3.0 // indirect
 	github.com/go-stack/stack v1.8.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
@@ -102,6 +107,7 @@ require (
 	github.com/jessevdk/go-flags v1.4.0 // indirect
 	github.com/jpillora/backoff v1.0.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.1.1 // indirect
+	github.com/leodido/go-urn v1.2.0 // indirect
 	github.com/libp2p/go-buffer-pool v0.1.0 // indirect
 	github.com/libp2p/go-flow-metrics v0.1.0 // indirect
 	github.com/libp2p/go-libp2p v0.23.4 // indirect
@@ -110,7 +116,7 @@ require (
 	github.com/libp2p/go-msgio v0.2.0 // indirect
 	github.com/libp2p/go-openssl v0.1.0 // indirect
 	github.com/magefile/mage v1.9.0 // indirect
-	github.com/mattn/go-isatty v0.0.16 // indirect
+	github.com/mattn/go-isatty v0.0.17 // indirect
 	github.com/mattn/go-pointer v0.0.1 // indirect
 	github.com/miekg/dns v1.1.50 // indirect
 	github.com/mimoo/StrobeGo v0.0.0-20210601165009-122bf33a46e0 // indirect
@@ -139,8 +145,10 @@ require (
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/tklauser/go-sysconf v0.3.5 // indirect
 	github.com/tklauser/numcpus v0.2.2 // indirect
+	github.com/tyler-smith/go-bip39 v1.1.0 // indirect
 	github.com/urfave/cli/v2 v2.17.2-0.20221006022127-8f469abc00aa // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
+	github.com/valyala/fastjson v1.5.4 // indirect
 	github.com/valyala/fasttemplate v1.0.1 // indirect
 	github.com/vedhavyas/go-subkey v1.0.3 // indirect
 	github.com/whyrusleeping/bencher v0.0.0-20190829221104-bb6607aa8bba // indirect
