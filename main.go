@@ -11,5 +11,6 @@ func main() {
 	//Tron_transfer()
 	//Erc20_transfer()
 	//Deeper_transfer()
-	Tezos_transfer()
+	//Tezos_transfer()
+	SuiTransfer()
 }
