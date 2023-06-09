@@ -12,5 +12,6 @@ func main() {
 	//Erc20_transfer()
 	//Deeper_transfer()
 	//Tezos_transfer()
-	SuiTransfer()
+	//SuiTransfer()
+	Solana_transfer()
 }
